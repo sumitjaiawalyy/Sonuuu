@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Damrubet | Premium Online Gaming Platform</title>
+    <script>
+      // Prevent pinch-to-zoom (two fingers) on touch devices
+      document.addEventListener('touchstart', function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      }, { passive: false });
+
+      document.addEventListener('touchmove', function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      }, { passive: false });
+
+      // Prevent iOS gesture-based zooming
+      document.addEventListener('gesturestart', function (event) {
+        event.preventDefault();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/frontend/src/main.tsx"></script>
+  </body>
+</html>
+

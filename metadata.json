@@ -1,0 +1,8 @@
+{
+  "name": "Damrubet",
+  "description": "A premium, dark-themed responsive online gaming and casino platform UI featuring interactive originals, live chat, real-time statistics, and modern navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
